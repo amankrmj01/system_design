@@ -23,6 +23,9 @@ Here, we discuss fundamental design principles like SOLID, DRY, KISS, and YAGNI,
 
 ## Design Patterns
 This section covers common design patterns such as Singleton, Factory, Observer, and Strategy patterns, with Java implementations and real-world scenarios.
+- [Creational Design Patterns](creational_design_pattern/creational_design_pattern.md)
+- [Structural Design Patterns](structural_design_pattern/structural_design_pattern.md)
+- [Behavioral Design Patterns](behavioral_design_pattern/behavioral_design_pattern.md)  
 
 ## Data Storage Solutions
 We explore different data storage options including relational databases, NoSQL databases, and in-memory data stores, along with Java libraries and frameworks for interacting with these storage solutions.
@@ -41,5 +44,11 @@ Effective testing and monitoring are crucial for maintaining system reliability.
 
 <div align="center">
 <p> Made with ❤️ for the Open Source Community</p>
+</div>
+
+<div align="center">  
+
+[Go to Top](#system-design-with-java)
+
 </div>
 
