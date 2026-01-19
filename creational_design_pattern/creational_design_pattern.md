@@ -4,7 +4,7 @@ Creational design patterns are a category of design patterns that deal with obje
 ## Table of Contents
 - [Singleton Pattern](singleton_pattern/Singleton_Pattern.md)
 - [Factory Method Pattern](factory_method_pattern/Factory_Method_Pattern.md)
-- [Abstract Factory Pattern](abstract_design_pattern/Abstract_Design_Pattern.md)
+- [Abstract Factory Pattern](abstract_factory_design_pattern/Abstract_Factory_Design_Pattern.md)
 - [Builder Pattern](builder_pattern/Builder_Pattern.md)
 - [Prototype Pattern](prototype_pattern/Prototype_Pattern.md)
 
@@ -25,3 +25,10 @@ Creational design patterns provide solutions to object creation problems in soft
 <div align="center">
 <p> Made with ❤️ for the Open Source Community</p>
 </div>
+
+
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">  
+
+[Go to Design Patterns](../README.md#design-patterns)
+
+[Go to Top](#creational-design-pattern)</div>
