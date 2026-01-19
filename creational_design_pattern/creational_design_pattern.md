@@ -27,8 +27,14 @@ Creational design patterns provide solutions to object creation problems in soft
 </div>
 
 
-<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">  
+<div align="left">  
 
 [Go to Design Patterns](../README.md#design-patterns)
 
-[Go to Top](#creational-design-pattern)</div>
+</div>
+
+<div align="right">
+
+[Go to Top](#creational-design-pattern)
+
+</div>
