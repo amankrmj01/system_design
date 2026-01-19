@@ -1,83 +1,60 @@
-// Example of Builder Design Pattern in Java
+// Example WITHOUT Builder Design Pattern
+// This shows how object creation becomes messy and error-prone without the builder pattern.
 
-// Product class
-class Computer {
-	// Required parameters
-	private String CPU;
-	private int RAM;
+// Product - House
+class House {
+	private String foundation;
+	private String structure;
+	private String roof;
 
-	// Optional parameters
-	private int storage;
-	private boolean isGraphicsCardEnabled;
-
-	// Private constructor to enforce object creation via Builder
-	private Computer(Builder builder) {
-		this.CPU = builder.CPU;
-		this.RAM = builder.RAM;
-		this.storage = builder.storage;
-		this.isGraphicsCardEnabled = builder.isGraphicsCardEnabled;
+	// All properties must be set manually, no step-by-step construction
+	public void setFoundation(String foundation) {
+		this.foundation = foundation;
 	}
 
-	// Getters
-	public String getCPU() { return CPU; }
-	public int getRAM() { return RAM; }
-	public int getStorage() { return storage; }
-	public boolean hasGraphicsCard() { return isGraphicsCardEnabled; }
+	public void setStructure(String structure) {
+		this.structure = structure;
+	}
 
-	// Builder static nested class
-	public static class Builder {
-		// Required parameters
-		private String CPU;
-		private int RAM;
-
-		// Optional parameters - initialized to default values
-		private int storage = 0;
-		private boolean isGraphicsCardEnabled = false;
-
-		// Builder constructor for required parameters
-		public Builder(String CPU, int RAM) {
-			this.CPU = CPU;
-			this.RAM = RAM;
-		}
-
-		// Setter for optional parameter
-		public Builder setStorage(int storage) {
-			this.storage = storage;
-			return this;
-		}
-
-		public Builder setGraphicsCardEnabled(boolean isGraphicsCardEnabled) {
-			this.isGraphicsCardEnabled = isGraphicsCardEnabled;
-			return this;
-		}
-
-		// Build method to create Computer object
-		public Computer build() {
-			return new Computer(this);
-		}
+	public void setRoof(String roof) {
+		this.roof = roof;
 	}
 
 	@Override
 	public String toString() {
-		return "Computer [CPU=" + CPU + ", RAM=" + RAM + "GB, Storage=" + storage + "GB, GraphicsCard=" + isGraphicsCardEnabled + "]";
+		return "House [foundation=" + foundation + ", structure=" + structure + ", roof=" + roof + "]";
 	}
 }
 
-// Client code to use the Builder
+// Client code WITHOUT builder pattern
 public class Without_Builder_Design_Pattern {
 	public static void main(String[] args) {
-		// Creating a Computer object using Builder
-		Computer computer = new Computer.Builder("Intel i7", 16)
-				.setStorage(512)
-				.setGraphicsCardEnabled(true)
-				.build();
+		// Building a Wooden House manually
+		House woodenHouse = new House();
+		// The client must remember the construction steps and order
+		woodenHouse.setFoundation("Wooden Foundation");
+		woodenHouse.setStructure("Wooden Structure");
+		woodenHouse.setRoof("Wooden Roof");
+		System.out.println(woodenHouse);
 
-		System.out.println(computer);
+		// Building a Stone House manually
+		House stoneHouse = new House();
+		// Again, the client is responsible for all steps
+		stoneHouse.setFoundation("Stone Foundation");
+		stoneHouse.setStructure("Stone Structure");
+		stoneHouse.setRoof("Stone Roof");
+		System.out.println(stoneHouse);
 
-		// Creating another Computer object with only required parameters
-		Computer basicComputer = new Computer.Builder("AMD Ryzen 5", 8)
-				.build();
+		// What if a step is missed?
+		House incompleteHouse = new House();
+		incompleteHouse.setFoundation("Mud Foundation");
+		// Oops! Structure and roof are not set
+		System.out.println(incompleteHouse);
 
-		System.out.println(basicComputer);
+		// Drawbacks:
+		// - No control over construction process (steps/order can be missed)
+		// - Code duplication for each house type
+		// - Hard to maintain and error-prone
+		// - No abstraction for complex construction logic
 	}
 }
