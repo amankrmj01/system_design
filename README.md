@@ -44,7 +44,7 @@ This section focuses on designing RESTful APIs and microservices using Java fram
 Effective testing and monitoring are crucial for maintaining system reliability. This section covers unit testing, integration testing, and monitoring tools and techniques for Java applications.
 
 <div align="center">
-<p> Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="25" height="25" /> for the Open Source Community</p>
+<p> Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Red%20Heart.png" alt="Red Heart" width="50" height="50" /> for the Open Source Community</p>
 </div>
 
 <div align="center">  
