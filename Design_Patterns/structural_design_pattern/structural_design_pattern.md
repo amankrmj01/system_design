@@ -41,7 +41,7 @@ Structural design patterns provide solutions to object composition problems in s
 
 <div align="left">  
 
-[Go to Design Patterns](../README.md#design-patterns)  
+[Go to Design Patterns](../Design_Patterns.md#design-patterns)  
 
 </div>
 
