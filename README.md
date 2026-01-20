@@ -18,11 +18,12 @@ System design is a critical skill for software engineers, especially when buildi
 ## Architecture Patterns
 This section explores various architecture patterns such as Monolithic, Microservices, Event-Driven, and Serverless architectures. Each pattern is explained with Java-based examples and use cases.
 
-## Design Principles
+## [Design Principles](Design_Principles/Design_Principles.md)
 Here, we discuss fundamental design principles like SOLID, DRY, KISS, and YAGNI, and how to apply them in Java projects to create maintainable and scalable systems.
 
-## Design Patterns
+## [Design Patterns](Design_Patterns/Design_Patterns.md)
 This section covers common design patterns such as Singleton, Factory, Observer, and Strategy patterns, with Java implementations and real-world scenarios.
+
 - [Creational Design Patterns](creational_design_pattern/creational_design_pattern.md)
 - [Structural Design Patterns](structural_design_pattern/structural_design_pattern.md)
 - [Behavioral Design Patterns](behavioral_design_pattern/behavioral_design_pattern.md)  
@@ -43,7 +44,7 @@ This section focuses on designing RESTful APIs and microservices using Java fram
 Effective testing and monitoring are crucial for maintaining system reliability. This section covers unit testing, integration testing, and monitoring tools and techniques for Java applications.
 
 <div align="center">
-<p> Made with ❤️ for the Open Source Community</p>
+<p> Made with <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Beating%20Heart.png" alt="Beating Heart" width="25" height="25" /> for the Open Source Community</p>
 </div>
 
 <div align="center">  
