@@ -4,17 +4,12 @@ Design patterns are typical solutions to common problems in software design. The
 ## Categories of Design Patterns
 Design patterns are generally categorized into three main types:
 
-1. **Creational Design Patterns**: These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. Examples include Singleton, Factory Method, Abstract Factory, Builder, and Prototype patterns.
+1. **[Creational Design Patterns](creational_design_pattern/creational_design_pattern.md#creational-design-pattern)**: These patterns deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. Examples include Singleton, Factory Method, Abstract Factory, Builder, and Prototype patterns.
 
-[Go to Creational Design Patterns](creational_design_pattern/creational_design_pattern.md#creational-design-pattern)
+2. **[Structural Design Patterns](structural_design_pattern/structural_design_pattern.md#structural-design-pattern)**: These patterns deal with object composition and typically help ensure that if one part of a system changes, the entire system doesn't need to do the same. Examples include Adapter, Bridge, Composite, Decorator, Facade, Flyweight, and Proxy patterns.
 
-2. **Structural Design Patterns**: These patterns deal with object composition and typically help ensure that if one part of a system changes, the entire system doesn't need to do the same. Examples include Adapter, Bridge, Composite, Decorator, Facade, Flyweight, and Proxy patterns.
+3. **[Behavioral Design Patterns](behavioral_design_pattern/behavioral_design_pattern.md#behavioral-design-pattern)**: These patterns are concerned with algorithms and the assignment of responsibilities between objects. They help ensure that objects interact in a way that is efficient and maintainable. Examples include Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, and Visitor patterns.
 
-[Go to Structural Design Patterns](structural_design_pattern/structural_design_pattern.md#structural-design-pattern)
-
-3. **Behavioral Design Patterns**: These patterns are concerned with algorithms and the assignment of responsibilities between objects. They help ensure that objects interact in a way that is efficient and maintainable. Examples include Chain of Responsibility, Command, Interpreter, Iterator, Mediator, Memento, Observer, State, Strategy, Template Method, and Visitor patterns.
-
-[Go to Behavioral Design Patterns](behavioral_design_pattern/behavioral_design_pattern.md#behavioral-design-pattern)
 
 # Benefits of Using Design Patterns
 - **Reusability**: Design patterns provide reusable solutions that can be applied to common problems, reducing the need to reinvent the wheel.
@@ -36,7 +31,7 @@ Design patterns are generally categorized into three main types:
 
 <div align="left">  
 
-[Go to Design Patterns](../README.md#design-patterns)
+[Go to System Design](../README.md#design-patterns)
 
 </div>
 
