@@ -15,7 +15,7 @@ This repository contains a collection of resources, examples, and best practices
 ## Introduction
 System design is a critical skill for software engineers, especially when building large-scale applications. This repository aims to provide a comprehensive guide to designing systems using Java, leveraging its robust ecosystem and libraries.
 
-## Architecture Patterns
+## [Architecture Patterns](Architecture_Patterns/Architecture_Patterns.md)
 This section explores various architecture patterns such as Monolithic, Microservices, Event-Driven, and Serverless architectures. Each pattern is explained with Java-based examples and use cases.
 
 ## [Design Principles](Design_Principles/Design_Principles.md)
