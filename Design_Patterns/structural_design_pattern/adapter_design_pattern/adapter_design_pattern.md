@@ -1,4 +1,4 @@
-# Adaptor Design Pattern
+# Adapter Design Pattern
 The Adapter Design Pattern, also known as the Wrapper Pattern, is a structural design pattern that allows incompatible interfaces to work together. It acts as a bridge between two incompatible interfaces by converting the interface of one class into an interface expected by the clients. This pattern is particularly useful when integrating legacy code with new systems or when working with third-party libraries that have different interfaces.
 
 <div align="center">
@@ -12,5 +12,5 @@ The Adapter Design Pattern, also known as the Wrapper Pattern, is a structural d
 
 <div align="right">
 
-[Go to Top](#adaptor-design-pattern)
+[Go to Top](#adapter-design-pattern)
 </div>
